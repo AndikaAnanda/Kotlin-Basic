@@ -11,6 +11,7 @@ fun main() {
 //  For range with jumped value, we can add step
     val range = 100 downTo 1 step 2
 //  Range operations :
+    println(range.count())
     println(range.first)
     println(range.last)
     println(range.contains(10))
